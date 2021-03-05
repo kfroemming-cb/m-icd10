@@ -28,8 +28,7 @@ Response
 {
   "collection": [
     {
-   url": "https://api.direct.us-south.natural-language-classifier.watson.cloud.ibm.com/v1/classifiers/f5668ax904-nlc-54",
-  "   "text": "pneumonia flu common cold",
+      "text": "pneumonia flu common cold",
       "top_class": "A3",
       "classes": [
         {
