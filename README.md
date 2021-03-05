@@ -3,11 +3,11 @@
 - Clone this repository
 - in the `.env` file add your I_AM key and your classifier ID from the IBM watson model
 - node index.js
-- Use postman to POST json in the body
+- Use postman to GET json in the body
 
 ## API ENDPOINTS
 
-#### `/collection`
+#### `/collection` `GET`
 
 - Takes a large `text` string that is broken down using a RAKE algorithm into key words
 - This is then returned in a collection of results ranking with the most likely diagnosis and icd10 code at the top
@@ -44,8 +44,8 @@ Response
   ]
 }
 ```
-
-#### `/phrase`
+ 
+#### `/phrase` `GET`
 
 Phrase is used when you would like a raw sentence analyzed by the model
 ```json
