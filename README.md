@@ -54,8 +54,6 @@ Phrase is used when you would like a raw sentence analyzed by the model
 }
 ```
 
-For Example: "The patient has Hypertension, Hyperlipidemia, and back pain"
-
 The response is below
 
 ```json
