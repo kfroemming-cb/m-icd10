@@ -1,0 +1,17 @@
+{
+  "name": "m-icd10",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Karsten Froemming",
+  "license": "MIT",
+  "dependencies": {
+    "@shopping24/rake-js": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "watson-developer-cloud": "^4.0.1"
+  }
+}
